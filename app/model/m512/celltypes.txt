@@ -1,0 +1,7 @@
+	0
+0	celltype7
+1	celltype0
+2	celltype6
+3	celltype4
+4	celltype3
+5	celltype2

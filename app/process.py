@@ -11,7 +11,7 @@ Contains code to
 # Imports
 import tensorflow as tf
 from anndata import read_h5ad
-from scaden.model.functions import get_signature_genes, preprocess_h5ad_data
+from model.functions import get_signature_genes, preprocess_h5ad_data
 
 """
 PARAMETERS

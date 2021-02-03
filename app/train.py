@@ -11,8 +11,8 @@ Contains code to
 # Imports
 import tensorflow as tf
 from anndata import read_h5ad
-from scaden.model.architectures import architectures
-from scaden.model.scaden import Scaden
+from model.architectures import architectures
+from model.scaden import Scaden
 """
 PARAMETERS
 """

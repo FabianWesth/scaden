@@ -1,0 +1,8 @@
+pretty_errors
+pandas
+numpy
+scikit-learn
+anndata
+tqdm
+click
+h5py

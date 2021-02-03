@@ -1,12 +1,11 @@
 import click
-import scaden
 import logging
 import os
-from scaden.train import training
-from scaden.predict import prediction
-from scaden.process import processing
-from scaden.simulate import simulation
-from scaden.example import exampleData
+from train import training
+from predict import prediction
+from process import processing
+from simulate import simulation
+from example import exampleData
 """
 
 author: Kevin Menden
@@ -18,6 +17,11 @@ This is the main file for executing the Scaden program.
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '0'
+
+@click.group()
+#@click.version_option(scaden.__version__)
+def cli():
+    pass
 
 
 def main():

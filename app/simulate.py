@@ -1,5 +1,5 @@
-from scaden.preprocessing.create_h5ad_file import create_h5ad_file
-from scaden.preprocessing.bulk_simulation import simulate_bulk
+from preprocessing.create_h5ad_file import create_h5ad_file
+from preprocessing.bulk_simulation import simulate_bulk
 import os
 """
 Simulation of artificial bulk RNA-seq samples from scRNA-seq data

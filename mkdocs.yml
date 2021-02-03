@@ -1,8 +1,0 @@
-site_name: Scaden
-nav:
-  - Home: index.md
-  - Installation: installation.md
-  - Usage: usage.md
-  - Datasets: datasets.md
-  - Changelog: changelog.md
-theme: readthedocs
